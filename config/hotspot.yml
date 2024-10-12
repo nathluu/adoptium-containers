@@ -13,8 +13,13 @@
 #
 
 supported_distributions:
+<<<<<<< HEAD
   OS: [alpine, focal, jammy, noble, ubi9-minimal, minideb, windowsservercore-1809, nanoserver-1809, windowsservercore-ltsc2022, nanoserver-ltsc2022]
   Versions: [8, 11, 17, 21, 23]
+=======
+  OS: [alpine, focal, jammy, centos, ubi9-minimal, minideb, windowsservercore-1809, nanoserver-1809, windowsservercore-ltsc2022, nanoserver-ltsc2022]
+  Versions: [8, 11, 17, 21]
+>>>>>>> fb5baeb99f5f6ed717608b5f477a7b127ebcf45a
 
 configurations:
   linux:
