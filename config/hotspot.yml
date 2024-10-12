@@ -40,9 +40,9 @@ configurations:
     image: redhat/ubi9-minimal
     os: ubi9-minimal
 
-  - directory: minideb/bullseye
+  - directory: minideb/bookworm
     architectures: [aarch64, x64]
-    image: bitnami/minideb:bullseye
+    image: bitnami/minideb:bookworm
     os: minideb
     
   alpine-linux:
